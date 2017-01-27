@@ -1,0 +1,2 @@
+n00001740	entity
+n00001930	physical entity

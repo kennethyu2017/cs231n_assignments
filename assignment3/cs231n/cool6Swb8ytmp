@@ -1,0 +1,2002 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="referrer" content="always" />
+<meta name="description" content="正态分布（Normal distribution），也称“常态分布”，又名高斯分布（Gaussian distribution），最早由A.棣莫弗在求二项分布的渐近公式中得到。C.F.高斯在研究测量误差时从另一个角度导出了它。P.S.拉普拉斯和高斯研究了它的性质。是一个在数学、物理及工程等领域都非常重要的概率分布，在统计学的许多方...">
+<title>正态分布_百度百科</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+<meta name="keywords" content="正态分布 常态分配 gaussian distribution 常态分布 高斯分布 normal distribution 正态分布历史发展 正态分布定理 正态分布定义 正态分布分布曲线特征 正态分布研究过程 正态分布u变换 正态分布曲线应用">
+<meta name="image" content="http://baike.bdimg.com/cms/static/baike.png">
+<script type="text/javascript">
+  // 配置 PD 监控。
+  window.alogObjectConfig = {
+    product: '103',
+    page: '103_',
+    monkey_page: '',
+    speed_page: '',
+    speed: {
+      sample: '1'
+    },
+    monkey: {
+      sample: '1',
+      hid: '1533'
+    },
+    exception: { 
+      sample: '1'
+    },
+    feature: {
+      sample: '1'
+    },
+    csp: {
+      sample: '1',
+      'default-src': [
+        {match: '*.baidu.com,*.bdimg.com,localhost', target: 'Accept'},
+        {match: '*', target: 'Accept,Warn'}
+      ]
+    }
+  };
+
+  void function(a,b,c,d,e,f,g){if(a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,"https:"===a.location.protocol){if(d="https://gss2.bdstatic.com/70cFsjip0QIZ8tyhnq"+d,!a.alogObjectConfig||!a.alogObjectConfig.sample)return}else d="http://img.baidu.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d,g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+<meta name="csrf-token" content="">
+
+<!--[if lte IE 9]>
+<script>
+    (function() {
+      var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+        i = e.length;
+      while (i--) {
+        document.createElement(e[i]);
+      }
+    })();
+  </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_7850da5.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-common/pkg/wiki-common-base_b4e62b7.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-common/widget/component/userbar/userbar_9fb5389.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-common/widget/component/searchbar/searchbar_main_f9c7c20.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-common/widget/component/navbar/navbar_0697c78.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/tools/announcement/announcement_b0d7681.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-common/widget/component/unameFiller/unameFiller_d631c34.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/tools/label/label_461cbe0.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_ebee986.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/tools/praise/praise_2120cd2.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/tools/video/pageMask/pageMask_ff9a193.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module_1709cbf.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-common/widget/component/userCard/userCard_2402f1f.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/mainContent_1a67233.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaRelation_9f629f5.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_1c34583.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-common/widget/component/footer/footer_main_eb7bd79.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons/toolButtons-o_a2c470f.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons/userInfo-o_9ba20c1.css"/><link rel="stylesheet" type="text/css" href="http://baike.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/searchHeader-o_e786bfb.css"/></head>
+
+<script type="text/javascript">
+    alog('speed.set', 'ht', +new Date);
+</script>
+
+<body class="wiki-lemma normal">
+
+
+
+<div class="header-wrapper">
+<ul class="wgt-userbar">
+<li>
+<a href="http://www.baidu.com/">百度首页</a>
+</li>
+</ul>
+<div class="header">
+<div class="layout">
+<div class="wgt-searchbar wgt-searchbar-main cmn-clearfix">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="nav">
+<a href="http://news.baidu.com/" nslog="normal" nslog-type="10080001" data-href="http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=">新闻</a>
+<a href="http://www.baidu.com/" nslog="normal" nslog-type="10080001" data-href="http://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=">网页</a>
+<a href="http://tieba.baidu.com/" nslog="normal" nslog-type="10080001" data-href="http://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=">贴吧</a>
+<a href="http://zhidao.baidu.com/" nslog="normal" nslog-type="10080001" data-href="http://zhidao.baidu.com/search?pn=0&&rn=10&lm=0&fr=bks0000&word=">知道</a>
+<a href="http://music.baidu.com/" nslog="normal" nslog-type="10080001" data-href="http://music.baidu.com/search?f=ms&ct=134217728&ie=utf-8&rn=&lm=-1&pn=30fr=bks0000&key=">音乐</a>
+<a href="http://image.baidu.com/" nslog="normal" nslog-type="10080001" data-href="http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=">图片</a>
+<a href="http://v.baidu.com/" nslog="normal" nslog-type="10080001" data-href="http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=22&ie=utf-8&fr=bks0000&word=">视频</a>
+<a href="http://map.baidu.com/" nslog="normal" nslog-type="10080001" data-href="http://map.baidu.com/m?ie=utf-8&fr=bks0000&word=">地图</a>
+<a class="baike" nslog="normal" nslog-type="10080001" >百科</a>
+<a href="http://wenku.baidu.com/" nslog="normal" nslog-type="10080001" data-href="http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&fr=bks0000&word=">文库</a>
+</div>
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080005" name="word" type="text" autocomplete="off" autocorrect="off" value="正态分布" /><button id="search" nslog="normal" nslog-type="10080002" type="button">进入词条</button><button id="searchLemma" nslog="normal" nslog-type="10080003" type="button">搜索词条</button><a class="help" nslog="normal" nslog-type="10080004" href="/help" target="_blank">帮助</a>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080006" >关闭</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-wrapper">
+<div class="wgt-navbar">
+<div class="navbar-bg">
+<div class="navbar-bg-top">
+<div class="navbar-content layout">
+<div class="navbar-content-box">
+<dl class="index ">
+<dt><a href="/">首页</a></dt>
+</dl>
+<dl class="cat ">
+<dt><a>分类</a></dt>
+<dd>
+<div><a href="/art" target="_blank" class="art">艺术</a></div>
+<div><a href="/science" target="_blank" class="technology">科学</a></div>
+<div><a href="/ziran" target="_blank">自然</a></div>
+<div><a href="/wenhua" target="_blank">文化</a></div>
+<div><a href="/dili" target="_blank">地理</a></div>
+<div><a href="/shenghuo" target="_blank">生活</a></div>
+<div><a href="/shehui" target="_blank">社会</a></div>
+<div><a href="/renwu" target="_blank">人物</a></div>
+<div><a href="/jingji" target="_blank">经济</a></div>
+<div><a href="/tiyu" target="_blank">体育</a></div>
+<div><a href="/lishi" target="_blank">历史</a></div>
+</dd>
+</dl>
+<dl class="special ">
+<dt><a>特色百科</a></dt>
+<dd>
+<div><a href="/calendar/" target="_blank">历史上的今天</a></div>
+<div><a href="/museum/" target="_blank">数字博物馆</a></div>
+<div><a href="/shiji/2015?fr=navbar" target="_blank">史记·2015</a></div>
+<div><a href="/city/" target="_blank">城市百科</a></div>
+<div><a href="/operation/worldwar2" target="_blank">二战百科</a></div>
+<div><a href="/feiyi?fr=dhlfeiyi" target="_blank">非遗百科</a></div>
+</dd>
+</dl>
+<dl class="user" >
+<dt><a>用户</a></dt>
+<dd>
+<div><a href="/kedou/" target="_blank">蝌蚪团</a></div>
+<div><a href="/event/ranmeng/" target="_blank">燃梦计划</a></div>
+<div><a href="/task/" target="_blank">百科任务</a></div>
+<div><a href="/mall/" target="_blank">百科商城</a></div>
+</dd>
+</dl>
+<dl class="cooperation" >
+<dt><a>权威合作</a></dt>
+<dd>
+<div><a href="/operation/cooperation#joint" target="_blank">合作模式</a></div>
+<div><a href="/operation/cooperation#issue" target="_blank">常见问题</a></div>
+<div><a href="/operation/cooperation#connection" target="_blank">联系方式</a></div>
+</dd>
+</dl>
+<dl class="mobile" >
+<dt><a>手机百科</a></dt>
+<dd>
+<div><a href="/m#wap" target="_blank">网页版</a></div>
+</dd>
+</dl>
+<div class="usercenter">
+<div><a href="/usercenter" target="_blank"><em class="cmn-icon cmn-icons cmn-icons_navbar-usercenter"></em>个人中心</a></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="body-wrapper">
+<div class="before-content">
+</div>
+<div class="content-wrapper">
+<div class="content">
+<div class="personal-content">
+</div>
+<div class="main-content">
+<div class="top-tool">
+<a class="add-sub-icon" href="javascript:;" title="添加义项" nslog-type="50000101"></a>
+<a href="/divideload/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83" title="拆分词条" target="_blank" class="split-icon" style="display:none;" nslog-type="50000104"></a>
+<div class="top-collect" nslog="area" nslog-type="50000102">
+<span class="collect-text">收藏</span>
+<div class="collect-tip">查看<a href="/uc/favolemma" target="_blank">我的收藏</a></div>
+</div>
+<a href="javascript:void(0);" class="top-vote" nslog-type="50000103">
+<span class="vote-count">0</span>
+<span class="vote-tip">有用+1</span>
+<span class="voted-tip">已投票</span>
+</a>
+<div class="bdsharebuttonbox top-share" data-tag="top-share">
+<a class="bds_more top-share-icon" data-cmd="more" nslog-type="9067">
+<span class="bds_count share-count" id="j-topShareCount" data-cmd="count">0</span>
+</a>
+</div>
+</div>
+<div style="width:0;height:0;clear:both"></div><dl class="lemmaWgt-lemmaTitle lemmaWgt-lemmaTitle-">
+<dd class="lemmaWgt-lemmaTitle-title">
+<h1 >正态分布</h1>
+<a href="javascript:;" class="edit-lemma cmn-btn-hover-blue cmn-btn-28 j-edit-link"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+<a class="lock-lemma" target="_blank" href="/view/10812319.htm" title="锁定"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lock-lemma"></em>锁定</a>
+</dd>
+</dl><div class="promotion-declaration">
+</div><div class="lemma-summary" label-module="lemmaSummary">
+<div class="para" label-module="para">正态分布（Normal distribution），也称“常态分布”，又名<a target=_blank href="/view/573667.htm">高斯分布</a>（Gaussian distribution），最早由A.棣莫弗在求<a target=_blank href="/view/79831.htm">二项分布</a>的渐近公式中得到。C.F.高斯在研究测量误差时从另一个角度导出了它。P.S.拉普拉斯和高斯研究了它的性质。<sup>[1]</sup><a class="sup-anchor" name="ref_[1]_45379">&nbsp;</a>
+是一个在<a target=_blank href="/subview/1284/13645654.htm" data-lemmaid="107037">数学</a>、物理及工程等领域都非常重要的<a target=_blank href="/view/45320.htm">概率</a>分布，在统计学的许多方面有着重大的影响力。</div><div class="para" label-module="para">正态曲线呈钟型，两头低，中间高，左右对称因其曲线呈钟形，因此人们又经常称之为<a target=_blank href="/view/1999086.htm">钟形曲线</a>。</div><div class="para" label-module="para">若<a target=_blank href="/view/45329.htm">随机变量</a>X服从一个<a target=_blank href="/view/295737.htm">数学期望</a>为μ、<a target=_blank href="/view/172036.htm">方差</a>为σ^2的正态分布，记为N(μ，σ^2)。其<a target=_blank href="/view/998459.htm">概率密度函数</a>为正态分布的<a target=_blank href="/view/476035.htm">期望值</a>μ决定了其位置，其<a target=_blank href="/view/78339.htm">标准差</a>σ决定了分布的幅度。当μ = 0,σ = 1时的正态分布是<a target=_blank href="/view/2134941.htm">标准正态分布</a>。</div>
+</div>
+<div class="configModuleBanner">
+</div><div class="basic-info cmn-clearfix">
+<dl class="basicInfo-block basicInfo-left">
+<dt class="basicInfo-item name">中文名</dt>
+<dd class="basicInfo-item value">
+正态分布，高斯分布
+</dd>
+<dt class="basicInfo-item name">外文名</dt>
+<dd class="basicInfo-item value">
+Gaussian curve
+</dd>
+</dl><dl class="basicInfo-block basicInfo-right">
+<dt class="basicInfo-item name">发现者</dt>
+<dd class="basicInfo-item value">
+棣莫弗
+</dd>
+<dt class="basicInfo-item name">所属学科</dt>
+<dd class="basicInfo-item value">
+概率论
+</dd>
+</dl></div>
+<div class="lemmaWgt-lemmaCatalog">
+<div class="lemma-catalog">
+<h2 class="block-title">目录</h2>
+<div class="catalog-list column-3">
+<ol>
+<li class="level1">
+<span class="index">1</span>
+<span class="text"><a href="#1">历史发展</a></span>
+</li>
+<li class="level1">
+<span class="index">2</span>
+<span class="text"><a href="#2">定理</a></span>
+</li>
+<li class="level1">
+<span class="index">3</span>
+<span class="text"><a href="#3">定义</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_1">一维正态分布</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_2">标准正态分布</a></span>
+</li>
+<li class="level1">
+<span class="index">4</span>
+<span class="text"><a href="#4">分布曲线特征</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_1">图形特征</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_2">参数含义</a></span>
+</li>
+<li class="level1">
+<span class="index">5</span>
+<span class="text"><a href="#5">研究过程</a></span>
+</li>
+<li class="level1">
+<span class="index">6</span>
+<span class="text"><a href="#6">u变换</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#6_1">一般正态分布与标准正态分布的区别与联系</a></span>
+</li>
+</ol><ol><li class="level1">
+<span class="index">7</span>
+<span class="text"><a href="#7">曲线应用</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#7_1">频数分布</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#7_2">考试成绩及学生综合素质研究</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#7_3">医学参考值</a></span>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="anchor-list">
+<a name="1" class="lemma-anchor para-title" ></a>
+<a name="sub45379_1" class="lemma-anchor " ></a>
+<a name="历史发展" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">正态分布</span>历史发展</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">正态分布概念是由德国的数学家和天文学家Moivre于1733年首次提出的，但由于德国数学家Gauss率先将其应用于天文学家研究，故正态分布又叫高斯分布，高斯这项工作对后世的影响极大，他使正态分布同时有了“高斯分布”的名称，后世之所以多将最小二乘法的发明权归之于他，也是出于这一工作。但现今德国10马克的印有高斯头像的钞票，其上还印有正态分布的<a target=_blank href="/view/3847303.htm">密度曲线</a>。这传达了一种想法：在高斯的一切科学贡献中，其对<a target=_blank href="/view/908760.htm">人类文明</a>影响最大者，就是这一项。在高斯刚作出这个发现之初，也许人们还只能从其理论的简化上来评价其优越性，其全部影响还不能充分看出来。这要到20世纪正态小样本理论充分发展起来以后。<a target=_blank href="/view/5864.htm">拉普拉斯</a>很快得知高斯的工作，并马上将其与他发现的中心极限定理联系起来，为此，他在即将发表的一篇文章（发表于1810年）上加上了一点补充，指出如若误差可看成许多量的叠加，根据他的中心极限定理，误差理应有<a target=_blank href="/view/573667.htm">高斯分布</a>。这是历史上第一次提到所谓“元误差学说”——误差是由大量的、由种种原因产生的元误差叠加而成。后来到1837年，海根（G.Hagen）在一篇论文中正式提出了这个学说。</div>
+<div class="para" label-module="para">其实，他提出的形式有相当大的局限性：海根把误差设想成个数很多的、独立同分布的“元误差” 之和，每只取两值，其概率都是1/2，由此出发，按狄莫佛的中心极限定理，立即就得出误差（近似地）服从正态分布。拉普拉斯所指出的这一点有重大的意义，在于他给误差的正态理论一个更自然合理、更令人信服的解释。因为，高斯的说法有一点循环论证的气味：由于算术平均是优良的，推出误差必须服从正态分布；反过来，由后一结论又推出算术平均及最小二乘估计的优良性，故必须<a target=_blank href="/view/618205.htm">认定</a>这二者之一（算术平均的优良性，误差的正态性） 为出发点。但算术平均到底并没有自行成立的理由，以它作为理论中一个预设的出发点，终觉有其不足之处。拉普拉斯的理论把这断裂的一环连接起来，使之成为一个和谐的整体，实有着极重大的意义。</div><div class="anchor-list">
+<a name="2" class="lemma-anchor para-title" ></a>
+<a name="sub45379_2" class="lemma-anchor " ></a>
+<a name="定理" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">正态分布</span>定理</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="2" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">由于一般的正态总体其图像不一定关于y<a target=_blank href="/view/811624.htm">轴对称</a>，对于任一正态总体，其取值小于x的概率。只要会用它求正态总体在某个特定区间的概率即可。</div>
+<div class="para" label-module="para">为了便于描述和应用，常将正态变量作数据转换。将一般正态分布转化成标准正态分布。</div>
+<div class="para" label-module="para">若<div class="layoutinline formula" style="width:245px;display: inline;">
+<img align="absmiddle" alt="" title="" height="36" width="245" src="https://imgsa.baidu.com/baike/s%3D245/sign=7bd20eacd609b3deefbfe36cf9bd6cd3/9345d688d43f8794895ee1ead51b0ef41ad53a54.jpg"/>
+</div></div>
+<div class="para" label-module="para">服从标准正态分布,通过查标准正态分布表就可以直接计算出原正态分布的概率值。故该变换被称为标准化变换。（标准正态分布表：标准正态分布表中列出了标准正态曲线下从-∞到X（当前值）范围内的面积比例。）</div><div class="anchor-list">
+<a name="3" class="lemma-anchor para-title" ></a>
+<a name="sub45379_3" class="lemma-anchor " ></a>
+<a name="定义" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">正态分布</span>定义</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="3" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="3_1" class="lemma-anchor para-title" ></a>
+<a name="sub45379_3_1" class="lemma-anchor " ></a>
+<a name="一维正态分布" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">正态分布</span>一维正态分布</h3>
+</div>
+<div class="para" label-module="para">若<a target=_blank href="/view/45329.htm">随机变量</a><div class="layoutinline formula" style="width:12px;display: inline;">
+<img align="absmiddle" alt="" title="" height="12" width="12" src="https://imgsa.baidu.com/baike/s%3D12/sign=a0c8d1ef241f95caa2f596b4c8171210/267f9e2f0708283828f20885b999a9014d08f1a0.jpg"/>
+</div> 服从一个位置参数为<div class="layoutinline formula" style="width:10px;display: inline;">
+<img align="absmiddle" alt="" title="" height="13" width="10" src="https://imgsa.baidu.com/baike/s%3D13/sign=fc592cb0738b4710ca2ff9cfc1ce63c9/63d9f2d3572c11dfef146bb2622762d0f603c25e.jpg"/>
+</div> 、尺度参数为<div class="layoutinline formula" style="width:10px;display: inline;">
+<img align="absmiddle" alt="" title="" height="9" width="10" src="https://imgsa.baidu.com/baike/s%3D10/sign=58e9702ea1ec08fa220017a758ee9a39/9c16fdfaaf51f3de1b656df595eef01f3b297948.jpg"/>
+</div> 的概率分布，且其<a target=_blank href="/view/998459.htm">概率密度函数</a>为</div>
+<div class="para" label-module="para"><div class="layoutblockcenter formula" style="width:205px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="44" width="205" src="https://imgsa.baidu.com/baike/s%3D205/sign=2abf505a42166d223c77129473220945/342ac65c1038534384b650b09213b07eca808822.jpg"/>
+</div></div>
+<div class="para" label-module="para">则这个<a target=_blank href="/view/45329.htm">随机变量</a>就称为<b>正态随机变量</b>，正态随机变量服从的分布就称为<b>正态分布，记作</b><div class="layoutinline formula" style="width:94px;display: inline;">
+<img align="absmiddle" alt="" title="" height="27" width="94" src="https://imgsa.baidu.com/baike/s%3D94/sign=6cbb75ab314e251fe6f7e8fca6861361/377adab44aed2e73a65b51bd8601a18b86d6faf5.jpg"/>
+</div> ，读作<div class="layoutinline formula" style="width:12px;display: inline;">
+<img align="absmiddle" alt="" title="" height="12" width="12" src="https://imgsa.baidu.com/baike/s%3D12/sign=293539f5574e9258a23482ec9d8206e4/8b82b9014a90f603539b4dd63812b31bb051ed7c.jpg"/>
+</div> 服从<div class="layoutinline formula" style="width:64px;display: inline;">
+<img align="absmiddle" alt="" title="" height="27" width="64" src="https://imgsa.baidu.com/baike/s%3D64/sign=f0de936e3ac79f3d8be1e734bba16935/1e30e924b899a90175eb8da71c950a7b0308f541.jpg"/>
+</div> ，或<div class="layoutinline formula" style="width:12px;display: inline;">
+<img align="absmiddle" alt="" title="" height="12" width="12" src="https://imgsa.baidu.com/baike/s%3D12/sign=f99a29b0738b4710ca2ff9cec2ce638f/63d9f2d3572c11dfead76eb2622762d0f703c219.jpg"/>
+</div> 服从正态分布。</div>
+<div class="para" label-module="para">μ维随机<a target=_blank href="/view/77260.htm">向量</a>具有类似的概率规律时，称此随机向量遵从多维正态分布。多元正态分布有很好的性质，例如，多元正态分布的边缘分布仍为正态分布，它经任何<a target=_blank href="/view/300474.htm">线性</a>变换得到的随机向量仍为多维正态分布，特别它的线性组合为一元正态分布。</div>
+<div class="para" label-module="para">本词条的正态分布是一维正态分布，此外多维正态分布参见“<a target=_blank href="/view/9306579.htm">二维正态分布</a>”。</div><div class="anchor-list">
+<a name="3_2" class="lemma-anchor para-title" ></a>
+<a name="sub45379_3_2" class="lemma-anchor " ></a>
+<a name="标准正态分布" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">正态分布</span>标准正态分布</h3>
+</div>
+<div class="para" label-module="para">当<div class="layoutinline formula" style="width:79px;display: inline;">
+<img align="absmiddle" alt="" title="" height="17" width="79" src="https://imgsa.baidu.com/baike/s%3D79/sign=96bfd75b838ba61edbeeca2640341961/b21bb051f819861811f03e154bed2e738ad4e6e8.jpg"/>
+</div> 时，正态分布就成为<b>标准正态分布</b></div>
+<div class="para" label-module="para"><div class="layoutblockcenter formula" style="width:131px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="63" width="131" src="https://imgsa.baidu.com/baike/s%3D131/sign=aaa1da2e86cb39dbc5c06355e11709a7/728da9773912b31bc73473ed8118367adbb4e19e.jpg"/>
+</div></div><div class="anchor-list">
+<a name="4" class="lemma-anchor para-title" ></a>
+<a name="sub45379_4" class="lemma-anchor " ></a>
+<a name="分布曲线特征" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">正态分布</span>分布曲线特征</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="4" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="4_1" class="lemma-anchor para-title" ></a>
+<a name="sub45379_4_1" class="lemma-anchor " ></a>
+<a name="图形特征" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">正态分布</span>图形特征</h3>
+</div>
+<div class="para" label-module="para"><b><b>集中性</b>：</b>正态曲线的高峰位于正中央，即<a target=_blank href="/view/4033401.htm">均数</a>所在的位置。</div>
+<div class="para" label-module="para"><b>对称性</b>：正态曲线以均数为中心，左右对称，曲线两端永远不与<a target=_blank href="/view/557349.htm">横轴</a>相交。</div>
+<div class="para" label-module="para"><b>均匀变动性</b>：正态曲线由均数所在处开始，分别向左右两侧逐渐均匀下降。</div>
+<div class="para" label-module="para">曲线与横轴间的面积总等于1，相当于<a target=_blank href="/view/998459.htm">概率密度函数</a>的函数从正无穷到负无穷积分的概率为1。即频率的总和为100%。<div class="lemma-picture text-pic layout-right" style="width:139px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892/0/4e83cb6229cf23e7e6113a12?fr=lemma&ct=single" target="_blank"
+		title="正态分布" style="width:139px;height:103px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://imgsa.baidu.com/baike/s%3D220/sign=a00911f07bcb0a4681228c3b5b62f63e/b3b7d0a20cf431ad6715b0334b36acaf2fdd98f1.jpg"  alt="正态分布" style="width:139px;height:103px;"/>
+</a>
+<span class="description">
+正态分布
+</span>
+</div></div>
+<div class="para" label-module="para">关于μ对称，并在μ处取最大值，在正（负）无穷远处取值为0，在μ±σ处有<a target=_blank href="/view/590122.htm">拐点</a>，形状呈现中间高两边低，正态分布的概率密度函数<a target=_blank href="/subview/400/11248276.htm" data-lemmaid="92103">曲线</a>呈钟形，因此人们又经常称之为<b>钟形曲线。</b></div><div class="anchor-list">
+<a name="4_2" class="lemma-anchor para-title" ></a>
+<a name="sub45379_4_2" class="lemma-anchor " ></a>
+<a name="参数含义" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">正态分布</span>参数含义</h3>
+</div>
+<div class="para" label-module="para">正态分布有两个参数，即期望（均数）μ和标准差σ，σ^2为方差。<div class="lemma-picture text-pic layout-right" style="width:200px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892/0/5d212aa89c244b8bca130c13?fr=lemma&ct=single" target="_blank"
+		title="正态分布公式" style="width:200px;height:76px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://imgsa.baidu.com/baike/s%3D220/sign=994e0fd015ce36d3a60484320af23a24/4ec2d5628535e5dd25ea56d576c6a7efcf1b62f2.jpg"  alt="正态分布公式" style="width:200px;height:76px;"/>
+</a>
+<span class="description">
+正态分布公式
+</span>
+</div></div>
+<div class="para" label-module="para">正态分布具有两个参数μ和σ^2的<a target=_blank href="/view/895851.htm">连续型随机变量</a>的分布，第一参数μ是服从正态分布的随机变量的<a target=_blank href="/view/1052684.htm">均值</a>，第二个参数σ^2是此随机变量的<a target=_blank href="/view/172036.htm">方差</a>，所以正态分布记作N（μ，σ^2）。</div>
+<div class="para" label-module="para">μ是正态分布的位置参数，描述正态分布的<a target=_blank href="/view/1128684.htm">集中趋势</a>位置。概率规律为取与μ邻近的值的概率大，而取离μ越远的值的概率越小。正态分布以X=μ为<a target=_blank href="/view/204893.htm">对称轴</a>，左右完全对称。正态分布的期望、<a target=_blank href="/view/4033401.htm">均数</a>、<a target=_blank href="/view/170892.htm">中位数</a>、众数相同，均等于μ。</div>
+<div class="para" label-module="para">σ描述正态分布资料数据分布的离散程度，σ越大，数据分布越分散，σ越小，数据分布越集中。也称为是正态分布的形状参数，σ越大，曲线越扁平，反之，σ越小，曲线越瘦高。</div>
+<div class="para" label-module="para"><b>面积分布</b></div>
+<div class="para" label-module="para">1．实际工作中，正态曲线下横轴上一定区间的面积反映该区间的例数占总例数的百分比，或变量值落在该区间的概率（概率分布）。不同 范围内正态曲线下的面积可用公式计算。</div>
+<div class="para" label-module="para">⒉正态曲线下，<a target=_blank href="/view/557349.htm">横轴</a>区间（μ-σ，μ+σ）内的面积为68.268949%。</div>
+<div class="para" label-module="para">P{|X-μ|&lt;σ}=2Φ（1）-1=0.6826</div>
+<div class="para" label-module="para">横轴区间（μ-1.96σ，μ+1.96σ）内的面积为95.449974%。</div>
+<div class="para" label-module="para">P{|X-μ|&lt;2σ}=2Φ（2）-1=0.9544</div>
+<div class="para" label-module="para">横轴区间（μ-2.58σ，μ+2.58σ）内的面积为99.730020%。<sup>[2]</sup><a class="sup-anchor" name="ref_[2]_45379">&nbsp;</a>
+</div>
+<div class="para" label-module="para">P{|X-μ|&lt;3σ}=2Φ（3）-1=0.9974</div>
+<div class="para" label-module="para">由于<b>“小概率事件”</b>和<a target=_blank href="/view/1445854.htm">假设检验</a>的基本思想 “小概率事件”通常指发生的概率小于5%的事件，认为在一次试验中该事件是几乎不可能发生的。由此可见X落在（μ-3σ，μ+3σ）以外的概率小于千分之三，在实际问题中常认为相应的事件是不会发生的，基本上可以把区间（μ-3σ，μ+3σ）看作是随机变量X实际可能的取值区间，这称之为正态分布的“3σ”原则。</div><div class="anchor-list">
+<a name="5" class="lemma-anchor para-title" ></a>
+<a name="sub45379_5" class="lemma-anchor " ></a>
+<a name="研究过程" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">正态分布</span>研究过程</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="5" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para"><b>正态分布的概念及特征：</b></div>
+<div class="para" label-module="para">一、正态分布的概念</div>
+<div class="para" label-module="para">由一般分布的频数表资料所绘制的直方图，图⑴可以看出，高峰位于中部，左右两侧大致对称。我们<div class="lemma-picture text-pic layout-right" style="width:201px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892/0/0862c3549eb05462d009061e?fr=lemma&ct=single" target="_blank"
+		title="正态分布研究图1" style="width:201px;height:128px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://imgsa.baidu.com/baike/s%3D220/sign=f20dfcbde950352ab561220a6342fb1a/77c6a7efce1b9d163504696bf3deb48f8d5464fd.jpg"  alt="正态分布研究图1" style="width:201px;height:128px;"/>
+</a>
+<span class="description">
+正态分布研究图1
+</span>
+</div>设想，如果观察例数逐渐增多，组段不断分细，直方图顶端的连线就会逐渐形成一条高峰位于中央（均数所在处），两侧逐渐降低且左右对称，不与横轴相交的光滑曲线图⑶。这条曲线称为<a target=_blank href="/view/1060227.htm">频数</a>曲线或<a target=_blank href="/view/2434449.htm">频率曲线</a>，近似于数学上的正态分布（normal distribution）。由于频率的总和为100%或1，故该曲线下<a target=_blank href="/view/557349.htm">横轴</a>上的面积为100%或1。</div>
+<div class="para" label-module="para">为了应用方便，常对正态分布变量<i>X</i>作变量变换。</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-left" style="width:71px; float: left;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892/0/a1ad16fa9ebb6bb159ee908a?fr=lemma&ct=single" target="_blank"
+		title="" style="width:71px;height:43px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://imgsa.baidu.com/baike/s%3D220/sign=07139c65ad4bd11300cdb0306aaea488/29381f30e924b8996687012e6e061d950a7bf669.jpg"  alt="" style="width:71px;height:43px;"/>
+</a>
+</div>该变换使原来的正态分布<a target=_blank href="/view/225840.htm">转化</a>为<a target=_blank href="/view/2134941.htm">标准正态分布</a>(standard normal distribution），亦称<i>u</i>分布。<i>u</i>被称为标准<a target=_blank href="/view/1587500.htm">正态变量</a>或标准正态<a target=_blank href="/view/1464732.htm">离差</a>（standard normal deviate）。<div class="lemma-picture text-pic layout-right" style="width:168px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892/0/7d989310a116ff3b203f2e1f?fr=lemma&ct=single" target="_blank"
+		title="正态分布研究图2" style="width:168px;height:132px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://imgsa.baidu.com/baike/s%3D220/sign=9d9293c1b2fb43161e1f7d7810a54642/faf2b2119313b07e6a7fa3020cd7912396dd8cfe.jpg"  alt="正态分布研究图2" style="width:168px;height:132px;"/>
+</a>
+<span class="description">
+正态分布研究图2
+</span>
+</div><div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892/0/21e5582369f657689822ed19?fr=lemma&ct=single" target="_blank"
+		title="正态分布研究图3" style="width:220px;height:123px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://imgsa.baidu.com/baike/s%3D220/sign=634ebfcaf736afc30a0c38678319eb85/0bd162d9f2d3572c71de6ed68a13632762d0c3f8.jpg"  alt="正态分布研究图3" style="width:220px;height:123px;"/>
+</a>
+<span class="description">
+正态分布研究图3
+</span>
+</div>实际工作中，常需要了解正态曲线下<a target=_blank href="/view/557349.htm">横轴</a>上某一区间的面积占总面积的<a target=_blank href="/view/41104.htm">百分数</a>，以便估计该区间的例数占总例数的百分数（<a target=_blank href="/view/3957702.htm">频数分布</a>）或观察值落在该区间的概率。正态曲线下一定区间的面积可以通过附表1求得。对于正态或近似正态分布的资料，已知<a target=_blank href="/view/4033401.htm">均数</a>和标准差，就可对其频数分布作出概约估计。</div>
+<div class="para" label-module="para">查附表1应注意：①表中曲线下面积为-∞到<i>u</i>的左侧累计面积；②当已知μ、σ和<i>X</i>时先按式u=(X-μ）/σ求得<i>u</i>值，再查表，当μ、σ未知且样本含量<i>n</i>足够大时，可用样本均数X1和标准差<i>S</i>分别代替μ和σ，按u=(X-X1）/S式求得<i>u</i>值，再查表；③曲线下对称于0的区间面积相等，如区间（-∞，-1.96）与区间（1.96，∞）的面积相等，④曲线下横轴上的总面积为100%或1。</div>
+<div class="para" label-module="para">图2 正态曲线与标准正态曲线的面积分布</div>
+<div class="para" label-module="para">正态分布的应用某些医学现象，如同质群体的身高、红细胞数、血红蛋白量、胆固醇等，以及实验中的随机误差，呈现为正态或近似正态分布；有些资料虽为偏态分布，但经数据变换后可成为正态或近似正态分布，故可按正态分布规律处理。</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-left" style="width:200px; float: left;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892/0/f35ea0090165311e6b60fbe6?fr=lemma&ct=single" target="_blank"
+		title="正态分布面积图1" style="width:200px;height:161px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://imgsa.baidu.com/baike/s%3D220/sign=e82008c61e178a82ca3c78a2c603737f/908fa0ec08fa513d4c919ed43d6d55fbb2fbd985.jpg"  alt="正态分布面积图1" style="width:200px;height:161px;"/>
+</a>
+<span class="description">
+正态分布面积图1
+</span>
+</div><div class="lemma-picture text-pic layout-left" style="width:200px; float: left;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892/0/b853d6fc2dc904c7fc037fe7?fr=lemma&ct=single" target="_blank"
+		title="正态分布面积图2" style="width:200px;height:170px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://imgsa.baidu.com/baike/s%3D220/sign=573f5c6a4fc2d562f608d7efd71190f3/a9d3fd1f4134970ade49e22595cad1c8a7865d86.jpg"  alt="正态分布面积图2" style="width:200px;height:170px;"/>
+</a>
+<span class="description">
+正态分布面积图2
+</span>
+</div></div><div class="anchor-list">
+<a name="6" class="lemma-anchor para-title" ></a>
+<a name="sub45379_6" class="lemma-anchor " ></a>
+<a name="u变换" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">正态分布</span>u变换</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="6" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="6_1" class="lemma-anchor para-title" ></a>
+<a name="sub45379_6_1" class="lemma-anchor " ></a>
+<a name="一般正态分布与标准正态分布的区别与联系" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">正态分布</span>一般正态分布与标准正态分布的区别与联系</h3>
+</div>
+<div class="para" label-module="para">正态分布也叫常态分布，是连续随机变量概率分布的一种，自然界、人类社会、心理和教育中大量现象均按正态形式分布，例如能力的高低，学生成绩的好坏等都属于正态分布。它随随机变量的平均数、标准差的大小与单位不同而有不同的分布形态。标准正态分布是正态分布的一种，其平均数和标准差都是固定的，平均数为0，标准差为1。</div><div class="anchor-list">
+<a name="7" class="lemma-anchor para-title" ></a>
+<a name="sub45379_7" class="lemma-anchor " ></a>
+<a name="曲线应用" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">正态分布</span>曲线应用</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="7" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para"><b>综述</b></div>
+<div class="para" label-module="para">⒈ 估计频数分布 一个服从正态分布的变量只要知道其均数与标准差就可根据公式即可估计任意取值范围内频数比例。</div>
+<div class="para" label-module="para">⒉ 制定参考值范围</div>
+<div class="para" label-module="para">⑴正态分布法 适用于服从正态（或近似正态）分布指标以及可以通过转换后服从正态分布的指标。</div>
+<div class="para" label-module="para">⑵百分位数法 常用于偏态分布的指标。表3-1中两种方法的单双侧界值都应熟练掌握。</div>
+<div class="para" label-module="para">⒊ 质量控制：为了控制实验中的测量（或实验）误差，常以 作为上、下警戒值，以 作为上、下控制值。这样做的依据是：正常情况下测量（或实验）误差服从正态分布。</div>
+<div class="para" label-module="para">⒋ 正态分布是许多统计方法的理论基础。检验、<a target=_blank href="/view/786804.htm">方差分析</a>、相关和<a target=_blank href="/view/145440.htm">回归分析</a>等多种<a target=_blank href="/view/1379337.htm">统计方法</a>均要求分析的指标服从正态分布。许多统计方法虽然不要求分析指标服从正态分布，但相应的<a target=_blank href="/view/823590.htm">统计量</a>在大样本时近似正态分布，因而大样本时这些<a target=_blank href="/view/83432.htm">统计推断</a>方法也是以正态分布为理论基础的。</div><div class="anchor-list">
+<a name="7_1" class="lemma-anchor para-title" ></a>
+<a name="sub45379_7_1" class="lemma-anchor " ></a>
+<a name="频数分布" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">正态分布</span>频数分布</h3>
+</div>
+<div class="para" label-module="para">例1.10 某地1993年抽样调查了100名18岁男大学生身高（cm），其均数=172.70cm，标准差s=4.01cm，①估计该地18岁男大学生身高在168cm以下者占该地18岁男大学生总数的百分数；②分别求X+-1s、X+-1.96s、X+-2.58s范围内18岁男大学生占该地18岁男大学生总数的实际百分数，并与理论百分数比较。</div>
+<div class="para" label-module="para">本例，μ、σ未知但样本含量<i>n</i>较大，按式（3.1）用样本均数X和<a target=_blank href="/view/78339.htm">标准差</a><i>S</i>分别代替μ和σ，求得<i>u</i>值，<i>u</i>=（168-172.70）/4.01=-1.17。查附表标准正态曲线下的面积，在表的左侧找到-1.1，表的上方找到0.07，两者相交处为0.1210=12.10%。该地18岁男大学生身高在168cm以下者，约占总数12.10%。其它计算结果见表3。</div>
+<div class="para" label-module="para">表3 100名18岁男大学生身高的实际分布与理论分布</div>
+<table log-set-param="table_view" class="table-view log-set-param"><tr><td width="66" align="left" valign="center"><div class="para" label-module="para">分布</div>
+<div class="para" label-module="para">x+-s</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">身高范围（cm）</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">实际分布</div>
+<div class="para" label-module="para">人数</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">实际分布</div>
+<div class="para" label-module="para">百分数（%）</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">理论分布（%）</div>
+</td></tr><tr><td width="66" align="left" valign="center"><div class="para" label-module="para">X+-1s</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">168.69～176.71</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">67</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">67.00</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">68.27</div>
+</td></tr><tr><td width="66" align="left" valign="center"><div class="para" label-module="para">X +-1.96s</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">164.84～180.56</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">95</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">95.00</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">95.00</div>
+</td></tr><tr><td width="66" align="left" valign="center"><div class="para" label-module="para">X+-2.58s</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">162.35～183.05</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">99</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">99.00</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">99.00</div>
+</td></tr></table><div class="anchor-list">
+<a name="7_2" class="lemma-anchor para-title" ></a>
+<a name="sub45379_7_2" class="lemma-anchor " ></a>
+<a name="考试成绩及学生综合素质研究" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">正态分布</span>考试成绩及学生综合素质研究</h3>
+</div>
+<div class="para" label-module="para"><a target=_blank href="/view/291425.htm">教育统计学</a>统计规律表明，学生的智力水平，包括学习能力，实际动手能力等呈正态分布。因而正常的考试成绩分布应基本服从正态分布。考试分析要求绘制出学生成绩分布的直方图，以“中间高、两头低”来衡量成绩符合正态分布的程度。其评价标准认为：考生成绩分布情况直方图，基本呈正态曲线状，属于好，如果略呈正（负）态状，属于中等，如果呈严重偏态或无规律，就是差的。</div>
+<div class="para" label-module="para">从概率统计规律看，“正常的考试成绩分布应基本服从正态分布”是正确的。但是必须考虑人与物的本质不同，以及教育的有所作为可以使“随机”受到干预，用曲线或直方图的形状来评价考试成绩就有失偏颇。许多教育专家（如上海顾泠沅、美国布鲁姆等）已经通过实践论证，教育是可以大有作为的，可以做到大多数学生及格，而且多数学生可以得高分，考试成绩曲线是偏正态分布的。但是长期受到“中间高、两头低”标准的影响，限制了教师的作为，抑制了多数学生能够学好的信心。这是很大的误会。通常正态曲线有一条对称轴。当某个分数（或分数段）的考生人数最多时，对应曲线的最高点，是曲线的顶点。该<a target=_blank href="/view/84808.htm">分数值</a>在<a target=_blank href="/view/557349.htm">横轴</a>上的对应点与顶点连接的<a target=_blank href="/view/476943.htm">线段</a>就是该正态曲线的<a target=_blank href="/view/204893.htm">对称轴</a>。考生人数最多的值是峰值。我们注意到，成绩曲线或直方图实际上很少对称的，称之为峰线更合适。</div><div class="anchor-list">
+<a name="7_3" class="lemma-anchor para-title" ></a>
+<a name="sub45379_7_3" class="lemma-anchor " ></a>
+<a name="医学参考值" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">正态分布</span>医学参考值</h3>
+</div>
+<div class="para" label-module="para">某些医学现象，如同质群体的身高、红细胞数、血红蛋白量，以及实验中的<a target=_blank href="/view/631016.htm">随机误差</a>，呈现为正态或近似正态分布；有些指标（变量）虽服从<a target=_blank href="/view/2127980.htm">偏态分布</a>，但经数据转换后的新变量可服从正态或近似正态分布，可按正态分布规律处理。其中经对数转换后服从正态分布的指标，被称为服从对数正态分布。</div>
+<div class="para" label-module="para">医学参考值范围亦称医学正常值范围。它是指所谓“正常人”的解剖、生理、生化等指标的波动范围。制定正常值范围时，首先要确定一批样本含量足够大的“正常人”，所谓“正常人”不是指“健康人”，而是指排除了影响所研究指标的疾病和有关因素的同质人群；其次需根据研究目的和使用要求选定适当的百分界值，如80%，90%，95%和99%，常用95%；根据指标的实际用途确定单侧或双侧界值，如<a target=_blank href="/view/9572.htm">白细胞</a>计数过高过低皆属不正常须确定双侧界值，又如肝功中转氨酶过高属不正常须确定单侧上界，肺活量过低属不正常须确定单侧下界。另外，还要根据资料的分布特点，选用恰当的计算方法。常用方法有：</div>
+<div class="para" label-module="para">⑴正态分布法：适用于正态或近似正态分布的资料。</div>
+<div class="para" label-module="para">双侧界值：X+-u(u)^S单侧上界：X+u(u)^S，或单侧下界：X-u(u)^S</div>
+<div class="para" label-module="para">⑵对数正态分布法：适用于对数正态分布资料。</div>
+<div class="para" label-module="para">双侧界值：lg-1[X(lgx)+-u(u)S(lgx)]；单侧上界：lg-1[X(lgx)+u(u)S(lgx)]，或单侧下界：lg-1[X(lgx)-u(u)S(lgx)]。</div>
+<div class="para" label-module="para">常用<i>u</i>值可根据要求由表4查出。</div>
+<div class="para" label-module="para">⑶百分位数法：常用于偏态分布资料以及资料中一端或两端无确切数值的资料。</div>
+<div class="para" label-module="para">双侧界值：<i>P</i>2.5和<i>P</i>97.5；单侧上界：<i>P</i>95，或单侧下界：<i>P</i>5。</div>
+<div class="para" label-module="para">表4常用<i>u</i>值表</div>
+<table log-set-param="table_view" class="table-view log-set-param"><tr><td width="66" align="left" valign="center"><div class="para" label-module="para">参考值范围（%)</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">单侧</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">双侧</div>
+</td></tr><tr><td width="66" align="left" valign="center"><div class="para" label-module="para">80</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">0.842</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">1.282</div>
+</td></tr><tr><td width="66" align="left" valign="center"><div class="para" label-module="para">90</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">1.282</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">1.645</div>
+</td></tr><tr><td width="66" align="left" valign="center"><div class="para" label-module="para">95</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">1.645</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">1.960</div>
+</td></tr><tr><td width="66" align="left" valign="center"><div class="para" label-module="para">99</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">2.326</div>
+</td><td width="66" align="left" valign="center"><div class="para" label-module="para">2.576</div>
+</td></tr></table><div class="para" label-module="para">统计的理论基础</div>
+<div class="para" label-module="para">如t分布、F分布、分布都是在正态分布的基础上推导出来的，u检验也是以正态分布为基础的。此外，t分布、<a target=_blank href="/view/79831.htm">二项分布</a>、Poisson分布的极限为正态分布，在一定条件下，可以按正态分布原理来处理。</div>
+<div class="para" label-module="para"><b>概率论中最重要的分布</b></div>
+<div class="para" label-module="para">正态分布有极其广泛的实际背景，生产与科学实验中很多随机变量的概率分布都可以近似地用正态分布来描述。例如，在生产条件不变的情况下，产品的强力、<a target=_blank href="/view/499414.htm">抗压强度</a>、口径、长度等指标；同一种生物体的身长、体重等指标；同一种种子的重量；测量同一物体的误差；弹着点沿某一方向的偏差；某个地区的年降水量；以及理想气体分子的速度分量，等等。一般来说，如果一个量是由许多微小的独立随机因素影响的结果，那么就可以认为这个量具有正态分布（见<a target=_blank href="/view/45355.htm">中心极限定理</a>）。从理论上看，正态分布具有很多良好的性质 ，许多<a target=_blank href="/view/45323.htm">概率分布</a>可以用它来近似；还有一些常用的概率分布是由它直接导出的，例如<a target=_blank href="/view/2098973.htm">对数正态分布</a>、<a target=_blank href="/view/1419652.htm">t分布</a>、F分布等。</div>
+<div class="para" label-module="para"><b>主要内涵</b></div>
+<div class="para" label-module="para">在联系自然、社会和思维的实践背景下，我们以正态分布的本质为基础，以正态分布曲线及面积分布图为表征（以后谈及正态分布及正态分布论就要浮现此图），进行抽象与提升，抓住其中的主要哲学内涵，归纳正态分布论（正态哲学）的主要内涵如下：</div>
+<div class="para" label-module="para"><b>整体论</b></div>
+<div class="para" label-module="para">正态分布启示我们，要用整体的观点来看事物。“系统的整体观念或总体观念是系统概念的精髓。” 正态分布曲线及面积分布图由<a target=_blank href="/view/2099944.htm">基区</a>、负区、正区三个区组成，各区比重不一样。用整体来看事物才能看清楚事物的本来面貌，才能得出事物的根本特性。不能只见树木不见森林，也不能以偏概全。此外整体大于部分之和，在分析各部分、各层次的基础上，还要从整体看事物，这是因为整体有不同于各部分的特点。用整体观来看世界，就是要立足在基区，放眼负区和正区。要看到主要方面，还要看到次要方面，既要看到积极的方面还要看到事物消极的一面，看到事物前进的一面还要看到落后的一面。片面看事物必然看到的是<a target=_blank href="/view/634984.htm">偏态</a>或者是变态的事物，不是真实的事物本身。</div>
+<div class="para" label-module="para"><b>重点论</b></div>
+<div class="para" label-module="para">正态分布曲线及面积分布图非常清晰的展示了重点，那就是基区占68.27%，是主体，要重点抓，此外95%，99%则展示了正态的全面性。认识世界和改造世界一定要住住重点，因为重点就是事物的主要矛盾，它对事物的发展起主要的、支配性的作用。抓住了重点才能一举其纲，万目皆张。事物和现象纷繁复杂，在千头万绪中不抓住主要矛盾，就会陷入无限琐碎之中。由于我们时间和精力的相对有限性，出于效率的追求，我们更应该抓住重点。在正态分布中，基区占了主体和重点。如果我们结合<a target=_blank href="/view/439968.htm">20/80法则</a>，我们更可以大胆的把正区也可以看做是重点。</div>
+<div class="para" label-module="para"><b>发展论</b></div>
+<div class="para" label-module="para">联系和发展是事物发展变化的基本规律。任何事物都有其产生、发展和灭亡的历史，如果我们把正态分布看做是任何一个系统或者事物的发展过程的话，我们明显的看到这个过程经历着从负区到基区再到正区的过程。无论是自然、社会还是人类的思维都明显的遵循这这样一个过程。准确的把握事物或者事件所处的历史过程和阶段极大的有助于掌握我们对事物、事件的特征和性质，是我们分析问题，采取对策和解决问题的重要基础和依据。发展的阶段不同，性质和特征也不同，分析和解决问题的办法要与此相适应，这就是<a target=_blank href="/view/1854933.htm">具体问题具体分析</a>，也是解放思想、实事求是、与时俱乐进的精髓。正态发展的特点还启示我们，事物发展大都是渐进的和累积的，走渐进发展的道路是事物发展的常态。例如，遗传是常态，变异是非常态。</div>
+<div class="para" label-module="para">总之，正态分布论是科学的世界观，也是科学的方法论，是我们认识和改造世界的最重要和最根本的工具之一，对我们的理论和实践有重要的指导意义。以正态哲学认识世界，能更好的认识和把握世界的本质和规律，以正态哲学来改造世界，能更好的在尊重和利用客观规律，更有效的改造世界。</div>
+<div class="para" label-module="para"><a target=_blank href="/view/44382.htm">弗朗西斯</a>弗朗西斯·高尔顿 [Francis Galton 1822.02.16－1911.01.17]，英国探险家、优生学家、心理学家，差异心理学之父，也是心理测量学上生理计量法的创始人。</div>
+<div class="para" label-module="para">高而顿对心理学的贡献，大概可以归纳未差异心理学、心理测量的量化和实验心理学三方面：</div>
+<div class="para" label-module="para">心理学研究之量化，始自高尔顿。他发明了许多感官和运动的测试，并以数量代表所测得的心理特质之差异。他认为人的所有特质，不管是物质的还是精神的，最终都可以定量叙述，这是实现人类科学的必要条件，故最先应用统计法处理心理学研究资料，重视数据的平均数与高中差数。他收集了大量资料证明人的心理特质在人口中的分布如同身高、体重那样符合<b>正态分布曲线</b>。他在论及遗传对个体差异的影响时，为<a target=_blank href="/view/172091.htm">相关系数</a>的概念作了初步提示。如他研究了“居间亲”和其成年子女的身高关系，发现居间亲和其子女的身高有正相关，即父母的身材较高，其子女的身材也有较高的趋势。反之，父母的身材较低，其子女也有较矮的趋势。同时发现子女的身高常与其父母略有差别，而呈现“回中”趋势，即离开其父母的身高数，而回到一般人身高的<a target=_blank href="/view/687354.htm">平均数</a>。</div>
+<div class="para" label-module="para"><b>智力、能力</b></div>
+<div class="para" label-module="para">理查德·赫恩斯坦 [（Richard J. Herrnstein 1930.05.20－1994.09.13），美国比较心理学家]和默瑞（Charles Murray）合著《正态曲线》一书而闻名，在该书中他们指出人们的智力呈<b>正态分布</b>。智力主要是遗传的并因种族的不同而不同，犹太人、东亚人的智商最高，其次为白人，表现最差的是黑人、西班牙裔人。他们检讨了数十年来心理计量学与政策学的研究成果，发现美国社会轻忽了智商的影响愈变愈大的趋势。他们力图证明，美国现行的偏向于以非洲裔和南美裔为主的低收入阶层的社会政策，如职业培训、大学教育等，完全是在浪费资源。他们利用应募入伍者的测试结果证明，黑人青年的智力低于白人和<a target=_blank href="/view/63335.htm">黄种人</a>；而且，这些人的智力已经定型，对他们进行培训收效甚微。因此，政府应该放弃对这部分人的教育，把钱用于包括所有种族在内的启蒙教育，因为孩子的智力尚未定型，开发潜力大。由于此书涉及黑人的智力问题，一经出版便受到来自四面八方的围攻。</div>
+<div class="anchor-list">
+<a name="a" class="lemma-anchor a" ></a>
+</div><div class="album-list">
+<div class="header">
+<span class="title">词条图册</span>
+<a class="more-link" href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892?fr=lemma" target="_blank" nslog-type="10000204">更多图册<em></em></a>
+</div>
+<div class="scroller">
+<div class="list">
+</div>
+</div>
+<div class="footer">
+</div>
+</div>
+<div class="rs-container-foot">
+<a name="rs-1"></a>
+<a name="rs_45379_34902" class="anchor-2"></a>
+<div id="rs-container-45379-34902" class="rslazy rs-container" lazy-init="lemmars.tableAction(baidu.g('rs-45379-34902'))"></div>
+<a name="rs_45379_35230" class="anchor-2"></a>
+<div id="rs-container-45379-35230" class="rslazy rs-container" lazy-init="lemmars.tableAction(baidu.g('rs-45379-35230'))"></div>
+<a name="rs_45379_45642" class="anchor-2"></a>
+<div id="rs-container-45379-45642" class="rslazy rs-container" lazy-init="lemmars.tableAction(baidu.g('rs-45379-45642'))"></div>
+<a name="rs_45379_45665" class="anchor-2"></a>
+<div id="rs-container-45379-45665" class="rslazy rs-container" lazy-init="lemmars.tableAction(baidu.g('rs-45379-45665'))"></div>
+</div><script type="text/javascript">
+        window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34902,"fentryTableName":"\u7fa4\u4f53\u3001\u6570\u91cf\u9057\u4f20\u5b66","fentryTableType":1,"entryId":2627920,"templateId":0,"entryTitle":"\u7fa4\u4f53\u3001\u6570\u91cf\u9057\u4f20\u5b66","isManual":0,"isExpand":1},{"fentryTableId":35230,"fentryTableName":"\u6570\u5b66\u751f\u6001\u5b66","fentryTableType":1,"entryId":2658166,"templateId":0,"entryTitle":"\u6570\u5b66\u751f\u6001\u5b66","isManual":0,"isExpand":1},{"fentryTableId":45642,"fentryTableName":"\u6570\u5b66\u540d\u8bcd","fentryTableType":1,"entryId":2741481,"templateId":0,"entryTitle":"\u6570\u5b66\u540d\u8bcd","isManual":0,"isExpand":1},{"fentryTableId":45665,"fentryTableName":"\u5316\u5b66\u540d\u8bcd","fentryTableType":1,"entryId":2742000,"templateId":0,"entryTitle":"\u5316\u5b66\u540d\u8bcd","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([45379, rsdataList]);
+        }
+    </script>
+<dl class="lemma-reference collapse nslog-area log-set-param" data-nslog-type="2" log-set-param="ext_reference">
+<dt class="reference-title">参考资料<em class="toggle"></em></dt>
+<dd class="reference-list-wrap">
+<ul class="reference-list">
+<li class="reference-item " id="reference-[1]-45379-wrap">
+<span class="index">1.</span>
+<a class="gotop anchor"  name="refIndex_1_45379" id="refIndex_1_45379" title="向上跳转" href="#ref_[1]_45379">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="http://baike.baidu.com/redirect/5809IyiITHWvf8myBlihydZ6MebVFBZg6oa3LOObVRRTi1yf9y9y9SVi3n5SWlSKYU309w72p0mZqzV90SFSyc4" target="_blank" class="text">正态分布的前世今生<span class="linkout">&nbsp;</span></a>
+<span class="site">．科学松鼠会</span><span>&#91;引用日期2013-06-26&#93;</span></li><li class="reference-item " id="reference-[2]-45379-wrap">
+<span class="index">2.</span>
+<a class="gotop anchor"  name="refIndex_2_45379" id="refIndex_2_45379" title="向上跳转" href="#ref_[2]_45379">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="http://baike.baidu.com/redirect/0a85uRuNNQUwO2bdRaX6wqEUSLQDkJeYbLlzWSmaST9vcie7KPsUKdje5IhvXkrfQiBn9-DlvutgfKT-qVzh4WVjtQOGjUum_2y_fjY1vJ3is8t2nIBG4art2GQmMg" target="_blank" class="text">正态分布<span class="linkout">&nbsp;</span></a>
+<span class="site">．维基百科</span><span>．2013-5-11</span><span>&#91;引用日期2013-06-2&#93;</span></li></ul>
+</dd>
+</dl>
+<div id="open-tag">
+<div class="open-tag-title">词条标签：</div>
+<dd id="open-tag-item">
+<span class="taglist">
+自然
+</span>
+</dd>
+<div class="open-tag-collapse" id="open-tag-collapse"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="side-content">
+<div class="summary-pic" >
+<a href="/pic/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892/0/79f0f736afc37931c22b82ecebc4b74542a911b7?fr=lemma&amp;ct=single" target="_blank" nslog-type="10002401">
+<img src="http://a.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=91fc8342d0a20cf44690f9d94e322c0b/79f0f736afc37931c22b82ecebc4b74542a911b7.jpg" />
+<button class="picAlbumBtn"><em></em><span>图集</span></button>
+<div>正态分布图册</div>
+</a>
+</div>
+<div id="promotion_xunke"></div>
+<div class="lemmaWgt-promotion-vbaike">
+<div class="promotion_title">V百科<a href="/vbaike#gallary" target="_blank">往期回顾</a></div>
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightPreciseAd" data-lemmaId="829892" data-lemmaTitle="正态分布"></div><div class="lemmaWgt-sideRecommend">
+<a name="zhixinWrap" class="qnAnchor"></a>
+<div class="zhixin-box" id="zhixinWrap" data-source="" data-newLemmaId="829892">
+</div>
+<form id="zhixinErrorForm" class="hidden" action="http://f3.baidu.com/index.php/feedback/zx/baikeJC" target="zhixinSubErr" method="post">
+<input class="js-url" name="fb_html_url" type="hidden" />
+<input class="js-query" name="fb_query" type="hidden" />
+<input class="js-title" name="fb_card_title" type="hidden" />
+<input class="js-content" name="fb_content" type="hidden" />
+<input class="js-souceId" name="fb_source_id" type="hidden" />
+</form>
+<iframe id="zhixinSubErr" name="zhixinSubErr" style="display:none" frameborder="0"></iframe>
+</div><div class="lemmaWgt-promotion-slide">
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightBigAd">
+</div><dl class="side-box lemma-statistics">
+<dt class="title">词条统计</dt>
+<dd class="description">
+<ul>
+<li>浏览次数：<span id="j-lemmaStatistics-pv"></span>次</li>
+<li>编辑次数：64次<a href="/historylist/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83/829892" class="nslog:1021" target="_blank">历史版本</a></li>
+<li>最近更新：<span class="j-modified-time" style="display:none">2016-09-19</span></li>
+<li>创建者：<a class="show-userCard" data-uid="6440243" title="查看此用户资料" target="_blank" href="http://www.baidu.com/p/kgdxk" nslog-type="1022">kgdxk</a></li>
+</ul>
+</dd>
+</dl>
+<div class="side-catalog" style="visibility:hidden">
+<div class="side-bar">
+<em class="circle start"></em>
+<em class="circle end"></em>
+</div>
+<div class="catalog-scroller">
+<dl class="catalog-list">
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#1" class="title-link">
+<span class="text">
+<span class="title-index">1</span>
+<span class="title-link" nslog-type="1026">历史发展</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#2" class="title-link">
+<span class="text">
+<span class="title-index">2</span>
+<span class="title-link" nslog-type="1026">定理</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#3" class="title-link">
+<span class="text">
+<span class="title-index">3</span>
+<span class="title-link" nslog-type="1026">定义</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#3_1" class="title-link">
+<span class="text">
+<span class="title-index">3.1</span>
+<span class="title-link" nslog-type="1026">一维正态分布</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_2" class="title-link">
+<span class="text">
+<span class="title-index">3.2</span>
+<span class="title-link" nslog-type="1026">标准正态分布</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#4" class="title-link">
+<span class="text">
+<span class="title-index">4</span>
+<span class="title-link" nslog-type="1026">分布曲线特征</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#4_1" class="title-link">
+<span class="text">
+<span class="title-index">4.1</span>
+<span class="title-link" nslog-type="1026">图形特征</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_2" class="title-link">
+<span class="text">
+<span class="title-index">4.2</span>
+<span class="title-link" nslog-type="1026">参数含义</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#5" class="title-link">
+<span class="text">
+<span class="title-index">5</span>
+<span class="title-link" nslog-type="1026">研究过程</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#6" class="title-link">
+<span class="text">
+<span class="title-index">6</span>
+<span class="title-link" nslog-type="1026">u变换</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#6_1" class="title-link">
+<span class="text">
+<span class="title-index">6.1</span>
+<span class="title-link" nslog-type="1026">一般正态分布与标准正态分布的区别与联系</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#7" class="title-link">
+<span class="text">
+<span class="title-index">7</span>
+<span class="title-link" nslog-type="1026">曲线应用</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#7_1" class="title-link">
+<span class="text">
+<span class="title-index">7.1</span>
+<span class="title-link" nslog-type="1026">频数分布</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#7_2" class="title-link">
+<span class="text">
+<span class="title-index">7.2</span>
+<span class="title-link" nslog-type="1026">考试成绩及学生综合素质研究</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#7_3" class="title-link">
+<span class="text">
+<span class="title-index">7.3</span>
+<span class="title-link" nslog-type="1026">医学参考值</span>
+</span>
+</a>
+</dd>
+<a class="arrow" href="javascript:void(0);"></a>
+</dl>
+</div>
+<div class="right-wrap">
+<a class="go-up disable" href="javascript:void(0);"></a>
+<a class="go-down" href="javascript:void(0);"></a>
+</div>
+<div class="bottom-wrap">
+<a class="toggle-button" href="javascript:void(0);"></a>
+<a class="gotop-button" href="javascript:void(0);"></a>
+</div>
+</div>
+<div class="unionAd_fromPs side-box" id="unionAd_fromPs">
+<script type="BAIDU_HH">
+    {
+        type : 'pageembed',
+        di   : 'u2140330',
+        rsi0 : 270,
+        rsi1 : 175
+    }
+    </script>
+</div>
+<div id="side_box_fengchao" class="fengchao side-box" nslog="area" nslog-type="10000902">
+</div>
+<div id="side_box_unionAd" class="unionAd side-box">
+<div class="union-content"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="after-content">
+<div class="fc-guess-like new" id="fc_guess_like_new">
+<span class="logo-du">
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+</span>
+<h6>猜你喜欢</h6>
+<ul class="cmn-clearfix">
+</ul>
+</div>
+<div class="bottom-promotion" id="bottom-promotion">
+<div id="BOTTOM_PRO_AD"></div>
+</div></div>
+</div>
+
+<div class="wgt-footer-main">
+<div class="content">
+<dl class="fresh">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-fresh"></em>新手上路</dt>
+<dd>
+<div><a target="_blank" href="/usercenter/tasks#guide">成长任务</a></div>
+<div><a target="_blank" href="/help#main01">编辑入门</a></div>
+<div><a target="_blank" href="/help#main06">编辑规则</a></div>
+<div><a target="_blank" href="/help#main05">百科术语</a></div>
+</dd>
+</dl>
+<dl class="question">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-question"></em>我有疑问</dt>
+<dd>
+<div><a target="_blank" href="/wikiui/doubt?lemmaId=829892&fr=lemma"
+            nslog-type="10070001">我要质疑</a></div>
+<div><a target="_blank" href="http://ikefu.baidu.com/baidubaike/chat.html" nslog-type="10000003">我要提问</a></div>
+<div><a target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91">参加讨论</a></div>
+<div><a target="_blank" href="/feedback">意见反馈</a></div>
+</dd>
+</dl>
+<dl class="suggestion">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-suggestion"></em>投诉建议</dt>
+<dd>
+<div><a target="_blank" href="http://tousu.baidu.com/baike#1">举报不良信息</a></div>
+<div><a target="_blank" href="http://tousu.baidu.com/baike#2">未通过词条申诉</a></div>
+<div><a target="_blank" href="http://tousu.baidu.com/baike#4">投诉侵权信息</a></div>
+<div><a target="_blank" href="http://tousu.baidu.com/baike#3">封禁查询与解封</a></div>
+</dd>
+</dl>
+</div>
+<div class="copyright">©2016Baidu&nbsp;<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_en=baike&class=159&id=1047" target="_blank">百科协议</a>&nbsp;|&nbsp;<a href="/operation/cooperation" target="_blank">百度百科合作平台</a></div>
+</div>
+
+<div class="lemmaWgt-searchHeader">
+<div class="layout">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" name="word" type="text" autocomplete="off" autocorrect="off" value="正态分布" /><a id="search" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_search" nslog-type="10010004"></em></a>
+</form>
+<ul id="suggestion" class="suggestion">
+<div></div>
+<li class="extra">
+<span id="close">关闭</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="tool-buttons">
+<a class="toolButtons-edit button j-edit-link" href="javascript:;" nslog-type="10010001"></a>
+<a class="toolButtons-collect button" href="javascript:;" nslog-type="10010002"></a>
+<a class="toolButtons-vote button" href="javascript:;" nslog-type="10010003"></a>
+</div>
+<div class="user-info">
+<a class="user-link unlogin" href="javascript:;" nslog-type="10010005" target="_blank">登录</a>
+</div>
+</div></div>
+<div class="new-bdsharebuttonbox new-side-share" id="side-share">
+<span class="title">分享</span>
+<div class="side-border">
+<div class="triangle"></div>
+<a class="bds_qzone"  href="javascript:void(0);" nslog-type="10060101">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+<a class="bds_tsina" href="javascript:void(0);" nslog-type="10060301">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060001">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+<a class="bds_tqq"  href="javascript:void(0);" nslog-type="10060201">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</div>
+</div>
+<div class="qrcode-wrapper" id="layer" style="display: none">
+<div class="bd_weixin_popup_header">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+<span>分享到微信朋友圈</span>
+</div>
+<div id="wechat-qrcode-img"></div>
+<div class="bd_weixin_popup_footer">打开微信“扫一扫”即可将网页分享至朋友圈</div>
+</div>
+<div></div><div></div>
+</body><script type="text/javascript" src="http://baike.bdimg.com/static/wiki-common/pkg/wiki-common_sync_js_0_29c88fe.js"></script>
+<script type="text/javascript">require.resourceMap({"res":{"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/lemmaInsert.js":{"url":"http://baike.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaInsert_17d225d.js","pkg":"wiki-lemma:p5","deps":["wiki-common:widget/component/nslog/nslog.js"]},"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/tangram.js":{"url":"http://baike.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/tangram_1e4b3aa.js","pkg":"wiki-lemma:p5"},"wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip.js":{"url":"http://baike.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip_d50e02d.js","deps":["wiki-common:widget/lib/jquery/jquery.js","wiki-common:widget/util/string.js"]}},"pkg":{"wiki-lemma:p5":{"url":"http://baike.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module-lemmaRelation_782158b.js"}}});</script><script type="text/javascript" src="http://baike.bdimg.com/static/wiki-common/widget/lib/jsmart/PHPJS_3347e0a.js"></script>
+<script type="text/javascript" src="http://baike.bdimg.com/static/wiki-common/pkg/wiki-common_sync_js_1_ec0cd21.js"></script>
+<script type="text/javascript" src="http://baike.bdimg.com/static/wiki-common/pkg/wiki-common_sync_js_2_7a24e62.js"></script>
+<script type="text/javascript" src="http://baike.bdimg.com/static/wiki-common/pkg/wiki-common_sync_js_5_62d9343.js"></script>
+<script type="text/javascript" src="http://baike.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_1c0255d.js"></script>
+<script type="text/javascript" src="http://baike.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_d2befc8.js"></script>
+<script type="text/javascript">!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery.js'),
+    userbar = require('wiki-common:widget/component/userbar/userbar.js');
+    
+  $(function() {
+    userbar.buildUserbar($('.wgt-userbar'), null);
+  });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js'),
+      initSearchbar = require('wiki-common:widget/component/searchbar/searchbar.js');  
+    initSearchbar($('.wgt-searchbar-main'));
+  }();
+!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+
+  var timer = '';
+
+  $('.wgt-navbar').on('mouseenter', 'dl', function() {
+  clearTimeout(timer);
+  timer = setTimeout(function() {
+  $('.wgt-navbar').addClass('wgt-navbar-hover');
+}, 300);
+}).on('mouseleave', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+}).on('click', 'a', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+});
+}();
+!function(){                var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+                var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+                // 展现策略
+                rightCheck.editView('829892', function(res) {
+                    if (!res.errno) {
+                        if (res.data.edit) {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    } else {
+                        if ('1') {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    }
+                });
+                require('wiki-lemma:widget/basicElement/addSub/addSub.js')({                    lemmaId: '829892',                    lemmaTitle: '正态分布',                    lemmaDesc: '',                    versionId: '112666947',                    subLemmaId: '45379'                });
+            }();
+!function(){        var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+        var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+        // 展现策略
+        rightCheck.editView('829892', function(res) {
+            if (!res.errno) {
+                if (res.data.divide) {
+                    $('.top-tool .split-icon').css('display', 'block');
+                }
+            }
+        });
+    }();
+!function(){    var nslog = require('wiki-common:widget/component/nslog/nslog.js');
+	require.async("wiki-lemma:widget/basicElement/collect/collect.js",function(collect){
+		collect({
+            newLemmaId:"829892",
+			lemmaId:"45379",
+			subLemmaId:"45379"
+		});
+	});
+}();
+!function(){    var nslog = require('wiki-common:widget/component/nslog/nslog.js');
+	require.async("wiki-lemma:widget/basicElement/vote/vote.js",function(vote){
+		vote({
+			lemmaId:"45379",
+            subLemmaId:"45379",
+            newLemmaId:"829892"
+		});
+	});
+}();
+!function(){    var nslog = require('wiki-common:widget/component/nslog/nslog.js');
+	!!window.BKShare && window.BKShare.regist({
+		"tag" : "top-share",
+		"bdSize" : 32,
+		"bdMini":1
+	});
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+            }
+        } else {
+            if ('1') {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+            }
+        }
+    });
+}();
+!function(){	require('wiki-lemma:widget/lemma_content/mainContent/basicInfo/basicInfo.js')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+    // 展现策略
+    rightCheck.editView('829892', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){	require.async(["wiki-common:widget/lib/jquery/jquery.js", "wiki-lemma:widget/lemma_content/mainContent/albumList/albumList.js", "wiki-common:widget/component/nslog/nslog.js"],function($,AlbumList,nslog){
+		var list=new AlbumList({
+			newLemmaId:"829892",
+			lemmaTitle:"正态分布",
+			lemmaId:"45379",
+			subLemmaId:"45379",
+			data:[{"coverpic":"79f0f736afc37931c22b82ecebc4b74542a911b7","desc":"\u8bcd\u6761\u56fe\u7247","total":9,"coverurl":"https:\/\/imgsa.baidu.com\/baike\/s%3D235\/sign=347da3b0d688d43ff4a996f1481fd2aa\/79f0f736afc37931c22b82ecebc4b74542a911b7.jpg"}]
+		});
+		!!window.ScriptLazyLoad && window.ScriptLazyLoad.regist({
+			dom:$('.album-list'),
+			loadFunc:function(){
+				list.load();
+				nslog(1258);
+			},
+			distance:500
+		});
+	});
+}();
+!function(){        require.async(['wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/lemmaInsert.js'], function(init) {
+            init({ // 关系化统计需求--传参  shangwenbin
+                lemmaId: "45379",
+                newLemmaId: "829892",
+                subLemmaId: "45379",
+                lemmaTitle: "正态分布"
+            });
+        });
+    }();
+!function(){		require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReference.js", "wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip.js"],function(Reference,ReferenceTip){
+			new Reference({
+				subLemmaId:"45379"
+			});
+			new ReferenceTip({
+				subLemmaId:"45379"
+			});
+		});
+	}();
+!function(){        require.async("wiki-common:widget/lib/jquery/jquery.js",function($){
+            function openTagToggle(node) {
+                if ($(node).hasClass("collapse")) {
+                    $(node).removeClass("collapse");
+                    $("#open-tag").css("height", '22px');
+                } else {
+                    $(node).addClass("collapse");
+                    $("#open-tag").css("height", $("#open-tag-item").css("height"));
+                }
+            }
+            if (parseInt($("#open-tag-item").css("height")) <= 30) {
+                $('#open-tag-collapse').hide();
+            }
+            $("#open-tag-collapse").on("click", function () {
+                openTagToggle($("#open-tag")[0]);
+            });
+        });
+    }();
+!function(){    require.async('wiki-lemma:widget/promotion/xunke/xunke.js', function (app) {
+        app.init({
+            lemmaTitle: '正态分布',
+            adManager: null
+        });
+    });
+}();
+!function(){        require('wiki-lemma:widget/lemma_content/configModule/zhixin/zhixin.js')(
+            829892,
+            '正态分布'
+        );
+    }();
+!function(){    require.async("wiki-lemma:widget/lemma_content/mainContent/lemmaStatistics/lemmaStatistics.js",function(init){
+        init({
+            newLemmaIdEnc:"a46e4d351c8fab03fffb9c8e"
+        });
+    });
+}();
+!function(){	require.async("wiki-lemma:widget/lemma_content/mainContent/sideCatalog/sideCatalog.js",function(SideCatalog){
+		new SideCatalog();
+	});
+}();
+!function(){        require.async(['wiki-lemma:widget/promotion/unionAdFromPs/unionAdFromPs.js'], function (init) {
+            init({
+                adManager: null
+            });
+        });
+    }();
+!function(){    require.async(["wiki-lemma:widget/promotion/fengchao/fengchao.js", "wiki-lemma:widget/promotion/unionAd/unionAd.js"], function (init, unionAd) {
+        init({
+            newLemmaId: "829892",
+            lemmaTitle: "正态分布",
+            encodeLemmaTitle: "%D5%FD%CC%AC%B7%D6%B2%BC",
+            adManager: null
+        }, {
+            errFn: unionAd,
+            dom: $('#side_box_unionAd')
+        });
+    });
+}();
+!function(){    require.async('wiki-lemma:widget/promotion/guessLike/guessLike.js', function (app) {
+        app.init({
+            lemmaTitle: '正态分布',
+            adManager: null
+        });
+    });
+}();
+!function(){        require.async('wiki-lemma:widget/promotion/bottomAd/bottomAd.js', function (init) {
+            init({
+                sId: 'BOTTOM_PRO_AD',
+                adManager: null
+            });
+        });
+    }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var Dialog = require("wiki-common:widget/ui/dialog/dialog.js");
+    var userLogin = require('wiki-common:widget/component/userLogin/userLogin.js');
+    var unameFiller = require('wiki-common:widget/component/unameFiller/unameFiller.js');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck.js');
+
+            var isEnterprise = false;
+        var enterpriseOwnerUserId = 0;
+    
+    var userId = 0;
+    var editUrl = '/edit/' + encodeURIComponent('正态分布') + '/' + '829892';
+    var pgcUrl = '/enterprise/editpgc?lemmaId=829892';
+
+    userLogin.regist({
+        onLogin: function(user) {
+            userId = user ? user.uid : 0;
+        }
+    });
+
+    function gotoEdit(url, isMidNight) {
+        if (isMidNight) {
+            Dialog.alert({
+                title: '编辑提示',
+                subMsg: '晚23:00至次日8:00，因审核系统例行维护，您提交的版本可能需要较长时间才能通过，望您谅解。',
+                onConfirm: function() {
+                    window.location.href = url;
+                }
+            });
+        } else {
+            window.location.href = url;
+        }    
+    }
+
+    function showChoseEditDialog(pgcCallback, ugcCallback) {
+        new Dialog({
+            title: '编辑提示',
+            subMsg: '<p>您已开通企业百科服务，推荐您直接编辑“官方资料”，官方资料仅限企业百科绑定的百科账号修改，其他用户账号不可修改。</p><p>如果您想修改其他网友编辑的普通词条内容，请注意遵守百科百科编辑规则。<p>',
+            btns: [{
+            key: 'pgc',
+            text: '编辑官方资料'
+            }, {
+            style: 'white',
+            text: '修改普通词条',
+            key: 'ugc'
+            }],
+            onBtnClick: function(btnKey){
+                if (btnKey === 'pgc') {
+                    pgcCallback && pgcCallback();
+                } else if (btnKey === 'ugc') {
+                    ugcCallback && ugcCallback();
+                }
+            }
+        }).show();
+    }
+
+    function checkUserLegal(res) {
+        var legal = false;
+        switch (res.errno) {
+            case 100001:
+                userLogin.showLoginPop();
+                break;
+            case 100006:
+                unameFiller.show();
+                break;
+            default:
+                legal = true;
+        }
+        return true;
+    }
+
+    function checkUgc(res, url) {
+        if (res.errno) {
+            switch (res.errno) {
+                case 100005:
+                    alert('对不起，您目前被封禁');
+                    break;
+                case 110001:
+                    alert('对不起，该词条被锁定');
+                    break;
+                case 110007:
+                    alert('对不起，消歧页无法编辑');
+                    break;
+                case 110005:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>四级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="http://img.baidu.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 110008:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>六级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="http://img.baidu.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 470001:
+                    alert('系统错误，请刷新重试');
+                    break;
+            }
+        } else {
+            if (!res.data.right.noAudit) {
+                Dialog.alert({
+                    title: '编辑提示',
+                    subMsg: '很抱歉，该词条有其他用户编辑的版本正在提交，您暂时无法编辑。<br/>百科建议您晚些时候再编辑该词条，或者尝试编辑其他的词条。'
+                });
+                return;
+            }
+            gotoEdit(url, res.data.notice.isMidNight);
+        }
+    }
+
+    $(document.body).on('click', '.j-edit-link', function() {
+        var dl = $(this).attr('data-edit-dl');
+        if (dl) {
+            var url = editUrl + '?dl=' + dl;
+        } else {
+            var url = editUrl;
+        }
+
+        rightCheck.preeditCheck('829892', '正态分布', '正态分布', '112666947', function(res) {
+            if (!checkUserLegal(res)) {
+                return;
+            }
+            if (isEnterprise && enterpriseOwnerUserId === userId) {
+                showChoseEditDialog(function() {
+                    location.href = pgcUrl;
+                }, function() {
+                    checkUgc(res, url);
+                });
+            } else {
+                checkUgc(res, url);
+            }
+        });
+    });
+}();
+!function(){    require.async("wiki-lemma:widget/tools/searchHeader/toolButtons/toolButtons.js",function(init){
+        init({
+            lemmaId:"45379",
+            subLemmaId:"45379",
+            newLemmaId:"829892"
+        });
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/searchHeader/toolButtons/userInfo.js')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js'),
+      animation = require('wiki-common:widget/util/animation.js'),
+      nslog = require('wiki-common:widget/component/nslog/nslog.js'),
+      initSearchbar = require('wiki-common:widget/component/searchbar/searchbar.js');
+
+    var isFadeIn = false,
+        isFadeOut = false;
+
+    var fadeInAni, fadeOutAni;
+
+    $(window).on('scroll', function(e) {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > 200 && !isFadeIn && $('.lemmaWgt-searchHeader').css('display') == 'none') {
+            fadeOutAni && fadeOutAni.stop();
+            fadeInAni = animation({
+                duration: 200,
+                easing: 'linear',
+                onStart: function() {
+                    isFadeOut = false;
+                    isFadeIn = true;
+                    $('.lemmaWgt-searchHeader').css('display', 'block');
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', progress)
+                },
+                onComplete: function(progress) {
+                    isFadeIn = false;
+                    nslog(10010006);
+                }
+            });
+        } else if (scrollTop <= 200 && !isFadeOut && $('.lemmaWgt-searchHeader').css('display') == 'block') {
+            fadeInAni && fadeInAni.stop();
+            fadeOutAni = animation({
+                duration: 300,
+                easing: 'linear',
+                onStart: function() {
+                    $('.lemmaWgt-searchHeader #suggestion').hide();
+                    isFadeIn = false;
+                    isFadeOut = true;
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', 1 - progress);
+                },
+                onComplete: function(progress) {
+                    isFadeOut = false;
+                    $('.lemmaWgt-searchHeader').css('display', 'none');
+                }
+            });
+        }
+    });
+
+    initSearchbar($('.lemmaWgt-searchHeader'));
+}();
+!function(){    require('wiki-lemma:widget/tools/newSideShare/qzopensl.js');
+    require.async("wiki-lemma:widget/tools/newSideShare/taskSideShare.js",function(taskShare){
+        taskShare.init({
+            title: '正态分布',
+            desc: "\u6b63\u6001\u5206\u5e03\uff08Normal distribution\uff09\uff0c\u4e5f\u79f0\u201c\u5e38\u6001\u5206\u5e03\u201d\uff0c\u53c8\u540d\u9ad8\u65af\u5206\u5e03\uff08Gaussian distribution\uff09\uff0c\u6700\u65e9\u7531A.\u68e3\u83ab\u5f17\u5728\u6c42\u4e8c\u9879\u5206\u5e03\u7684\u6e10\u8fd1\u516c\u5f0f\u4e2d\u5f97\u5230\u3002C.F.\u9ad8\u65af\u5728\u7814\u7a76\u6d4b\u91cf\u8bef\u5dee\u65f6\u4ece\u53e6\u4e00\u4e2a\u89d2\u5ea6\u5bfc\u51fa\u4e86\u5b83\u3002P.S.\u62c9\u666e\u62c9\u65af\u548c\u9ad8\u65af\u7814\u7a76\u4e86\u5b83\u7684\u6027\u8d28\u3002\u662f\u4e00\u4e2a\u5728\u6570\u5b66\u3001\u7269\u7406\u53ca\u5de5\u7a0b\u7b49\u9886\u57df\u90fd\u975e\u5e38\u91cd\u8981\u7684\u6982\u7387\u5206\u5e03\uff0c\u5728\u7edf\u8ba1\u5b66\u7684\u8bb8\u591a\u65b9",
+            pic: 'https:\/\/imgsa.baidu.com\/baike\/w%3D268\/sign=1a653f011bd5ad6eaaf963ecb9ca39a3\/79f0f736afc37931c22b82ecebc4b74542a911b7.jpg',
+            url: '',
+            qqPic: 'http:\/\/a.hiphotos.baidu.com\/baike\/whfpf%3D190%2C190%2C50\/sign=8b685cd74f4a20a4314b6f87f66fa91b\/79f0f736afc37931c22b82ecebc4b74542a911b7.jpg'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery.js');
+    var nslog = require("wiki-common:widget/component/nslog/nslog.js");
+    var testElem = require('wiki-common:widget/component/testElem/testElem.js');
+    var cmsModuleLoader = require('wiki-common:widget/component/cmsModuleLoader/cmsModuleLoader.js');
+
+    function requireAsync() {
+        require.async('wiki-lemma:widget/tools/announcement/announcement.js');
+    }
+
+    cmsModuleLoader('/cms/global/lemma_config.json', [{
+        name: 'announcement',
+        script: 'wiki-lemma:widget/tools/announcement/announcement.js'
+    }]);
+
+    require.async("wiki-lemma:widget/tools/lazyLoad/lazyLoad.js", function(LazyLoad) {
+        new LazyLoad();
+    });
+
+    require.async(['wiki-common:widget/component/nslog/nslog.js', 'wiki-common:widget/lib/jquery/jquery.js'], function(nslog, $) {
+        nslog().setGlobal({
+            lemmaId: "45379",
+            newLemmaId: "829892",
+            subLemmaId: "45379",
+            lemmaTitle: "正态分布"
+        });
+
+        // 词条页 pv
+        nslog(9322);
+
+        // 新版头部pv（小流量）
+        if ($('.pc-header-new').length > 0) {
+            nslog(9069);
+        }
+
+        // 链接点击 pv
+        var lemmaPageRegExp = new RegExp(/\/subview\/\d+|\/view\/\d+|\/item\//i);
+        $('body').on('mousedown', 'a', function() {
+            var href = $(this).attr('href');
+            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0) {
+                // 链接点击 pv
+                nslog(10000001);
+                if (lemmaPageRegExp.test(href)) {
+                    // 词条页链接点击 pv
+                    nslog(10000002, window.location.href, {
+                        targetTitle: $(this).text()
+                    });
+                }
+            }
+        });
+
+        /****** 词条页站内流转需求统计 start ******/
+        (function () {
+            // 各种统计配置
+            var circulationLinkCfg = {
+                innerLink: [ // 内链
+                    '.para',
+                    '.lemmaWgt-baseInfo-simple-largeMovie',
+                    '.lemmaWgt-baseInfo-simple-largeStar',
+                    '.basic-info .basicInfo-block',
+                    '.lemma-summary',
+                    '.lemmaWgt-lemmaSummary',
+                    '.view-tip-panel',
+                    '.horizontal-module',
+                    '.lemmaWgt-roleIntroduction',
+                    '.dramaSeries .dramaSerialList',
+                    '.module-music',
+                    '.table-view',
+                    '[log-set-param="table_view"]',
+                    '.list-module',
+                    '.cell-module',
+                    '.baseBox .dl-baseinfo', // 配置后台字段
+                    '.pvBtn-box .leadPVBtnWrapper',
+                    '.drama-actor',
+                    '#staffList',
+                    '.starMovieAndTvplay',
+                    '.main_tab:not(.main_tab-defaultTab)' // 除去词条tab外的tab
+                ],
+                relationTable: '.rs-container-foot', // 关系表
+                peopleRelation: '.star-info-block.relations, .lemmaWgt-focusAndRelation', // 人物关系（明星+普通）
+                moduleActors: '.featureBaseInfo .actors, .lemmaWgt-majorActors', // 主要演员、嘉宾、主持人
+                moduleWorks: '.featureBaseInfo .works, .large-feature .works', // 代表作品
+                moduleQuarterly: '.featureBaseInfo .po_quarterly, .mian_quarterly', // 分季介绍
+                rankStar: '.rank-list.stars-rank', // 明星榜
+                rankDrama: '.drama-rank-list', // 电视剧榜
+                specialTopic: '.special-topic', // 专题模块
+                modDetailTable: '#modDetailTable', // 关系表出图
+                chuizhitu: '.chuizhitu', // 垂直化模块
+                polysemantList: '.polysemantList-wrapper' // 义项切换
+            };
+            /****** 连接统计 ******/
+            function clickNslogFn() {
+                for (var k in circulationLinkCfg) {
+                    if (k === 'innerLink') {
+                        // 词条内链到词条页
+                        var tempArr = circulationLinkCfg[k];
+                        for (var i = 0, l = tempArr.length; i < l; i++) {
+                            tempArr[i] += ' a';
+                        }
+                        var sSelector = tempArr.join(', ');
+
+                        $('body').on('mousedown', sSelector, {key: k},function(e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            var tar = $(this).attr('target') || '';
+                            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0
+                            && tar === '_blank' && lemmaPageRegExp.test(href)) {
+                                // 词条页普通内链点击 pv
+                                nslog(10000004, null ,{division: key});
+                            }
+                        });
+                    } else {
+                        // 模块到词条页链接
+                        $(circulationLinkCfg[k]).on('mousedown', 'a', {key: k}, function (e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            if (href && href.indexOf('#') !== 0 && lemmaPageRegExp.test(href)) {
+                                // 词条页配置模块链接点击 pv
+                                nslog(10000004, null, {division: key});
+                            }
+                        });
+                    }
+                }
+            }
+            // 发起统计请求
+            clickNslogFn();
+
+            /****** 各模块展现量pv ******/
+            function checkModuleIsShow() {
+                var result = [];
+                for (var k in circulationLinkCfg) {
+                    if (k !== 'innerLink' && k !== 'relationTable') {
+                        !!$(circulationLinkCfg[k]).html() && result.push(k);
+                    }
+                }
+                if (result.length > 0) {
+                    nslog(10000005, null, {showModules: result.join(',')});
+                }
+            }
+            checkModuleIsShow();
+
+        })();
+        /****** 词条页站内流转需求统计 end ******/
+
+    });
+
+    // 广告接入 wikiad 统一加载
+    // log 词条页广告被拦截情况（此处 log 请求行为）
+    nslog(70000101, window.location.href, {
+        api: 'lemma-ad',
+        action: 'request'
+    });
+    $.ajax({
+        type: 'GET',
+        url: '/api/wikiad/getsquirrels',
+        data: {
+            lemmaId: 829892
+        },
+        cache: false,
+        dataType: 'JSON',
+        success: function (res) {
+            // log 词条页广告被拦截情况（此处 log 请求成功）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'success'
+            });
+
+            if (!res.errno) {
+                if (res.data[5]) {
+                    require.async(['wiki-lemma:widget/promotion/rightPreciseAd/rightPreciseAd.js'], function(rightPreciseAd) {
+                        rightPreciseAd(res.data[5]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[5][0].adId,
+                            adTitle: res.data[5][0].name,
+                            adPos: 5
+                        });
+                    });
+                } else if (res.data[1]) {
+                    require.async(['wiki-lemma:widget/promotion/vbaike/vbaike.js'], function(vbaike) {
+                        vbaike(res.data[1]);
+                        for(var i in res.data[1]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[1][i].adId,
+                                adTitle: res.data[1][i].name,
+                                adPos: 1
+                            });
+                        }
+                    });
+                }
+                if (res.data[9]) {
+                    require.async(['wiki-lemma:widget/promotion/rightBigAd/rightBigAd.js'], function(rightBigAd) {
+                        rightBigAd(res.data[9]);
+                            nslog(10002201, location.href, {
+                                adId: res.data[9][0].adId,
+                                adTitle: res.data[9][0].name,
+                                adPos: 9
+                            });
+                    });
+                } else if(res.data[2]) {
+                    require.async(['wiki-lemma:widget/promotion/slide/slide.js'], function(slide) {
+                        slide(res.data[2]);
+                        for(var i in res.data[2]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[2][i].adId,
+                                adTitle: res.data[2][i].name,
+                                adPos: 2
+                            });
+                        }
+                    });
+                }
+                if (res.data[3]) {
+                    require.async(['wiki-lemma:widget/promotion/topAd/topAd.js'], function(topAd) {
+                        topAd(res.data[3]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[3][0].adId,
+                            adTitle: res.data[3][0].name,
+                            adPos: 3
+                        });
+                    });
+                }
+                if (res.data[4]) {
+                    require.async(['wiki-lemma:widget/promotion/rightAd/rightAd.js'], function(rightAd) {
+                        rightAd(res.data[4]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[4][0].adId,
+                            adTitle: res.data[4][0].name,
+                            adPos: 4
+                        });
+                    });
+                }
+                if (res.data[15]) {
+                    require.async(['wiki-lemma:widget/promotion/banner/banner.js'], function(banner) {
+                        banner(res.data[15]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[15][0].adId,
+                            adTitle: res.data[15][0].name,
+                            adPos: 15
+                        });
+                    });
+                }
+                if (res.data[16]) {
+                    require.async(['wiki-lemma:widget/promotion/declaration/declaration.js'], function(declaration) {
+                        declaration(res.data[16]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[16][0].adId,
+                            adTitle: res.data[16][0].name,
+                            adPos: 16
+                        });
+                    })
+                }
+            } else {
+                return;
+            }
+
+            setTimeout(function () {
+                var elemArr = {};
+                res.data[1] && res.data[1].length > 0 && (elemArr['lemma-vbaike-ad'] = $('.lemmaWgt-promotion-vbaike .promotion_viewport a:eq(0) img').get(0));
+                res.data[2] && res.data[2].length > 0 && (elemArr['lemma-slide-ad'] = $('.lemmaWgt-promotion-slide .promotion_viewport a:eq(0) img').get(0));
+                res.data[3] && res.data[3].length > 0 && (elemArr['lemma-navbar-ad'] = {
+                    node: $('.header [nslog-type="10002202"]').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.header [nslog-type="10002202"]').css('background-image').indexOf(res.data[3][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[4] && res.data[4].length > 0 && (elemArr['lemma-side-ad'] = {
+                    node: $('.right-ad img').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.right-ad img').attr('src').indexOf(res.data[4][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[15] && res.data[15].length > 0 && (elemArr['lemma-configModule-banner'] = $('.configModuleBanner').get(0));
+                res.data[16] && res.data[16].length > 0 && (elemArr['lemma-configModule-declaration'] = $('.lemmaWgt-declaration').get(0));
+
+                testElem.log(elemArr, 70000102);
+            }, 1000);
+        },
+        error: function () {
+            // log 词条页广告被拦截情况（此处 log 请求失败）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'error'
+            });
+        }
+    });
+
+    // 设置分享内容
+    window.BKShare.setCommon({
+        bdText: "\u3010\u6b63\u6001\u5206\u5e03_\u767e\u5ea6\u767e\u79d1\u3011\u6b63\u6001\u5206\u5e03\uff08Normal distribution\uff09\uff0c\u4e5f\u79f0\u201c\u5e38\u6001\u5206\u5e03\u201d\uff0c\u53c8\u540d\u9ad8\u65af\u5206\u5e03\uff08Gaussian distribution\uff09\uff0c\u6700\u65e9\u7531A.\u68e3\u83ab\u5f17\u5728\u6c42\u4e8c\u9879\u5206\u5e03\u7684\u6e10\u8fd1\u516c\u5f0f\u4e2d\u5f97\u5230\u3002C.F.\u9ad8\u65af\u5728\u7814\u7a76\u6d4b\u91cf\u8bef\u5dee\u65f6\u4ece\u53e6\u4e00\u4e2a\u89d2\u5ea6\u5bfc\u51fa\u4e86\u5b83\u3002P.S.\u62c9\u666e\u62c9\u65af\u548c\u9ad8\u65af\u7814\u7a76\u4e86\u5b83\u7684\u6027\u8d28\u3002\u662f\u4e00\u4e2a\u5728\u6570\u5b66\u3001\u7269\u7406\u53ca\u5de5\u7a0b\u7b49\u9886\u57df\u90fd\u975e\u5e38\u91cd\u8981\u7684\u6982\u7387\u5206\u5e03\uff0c\u5728\u7edf\u8ba1\u5b66\u7684\u8bb8\u591a\u65b9.....\uff08\u5206\u4eab\u81ea@\u767e\u5ea6\u767e\u79d1\uff09",
+        bdDesc: '',
+        bdUrl: 'http:\/\/baike.baidu.com\/subview\/45379\/45379.htm',
+        bdPic: '',
+        onBeforeClick: function (){
+            $('.bdshare_dialog_box').hide();
+        }
+    });
+
+    // 底部投诉带入当前页面 url
+    var map = [1, 2, 4, 3];
+    $('.wgt-footer-main .suggestion').find('a').each(function(i) {
+        $(this).attr('href', 'http://tousu.baidu.com/baike/add?word=%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83' + '&&submit_link=' + encodeURIComponent(window.location.href) + '#' + map[i]);
+    });
+}();
+!function(){      require('wiki-common:widget/component/psLink/psLink.js');
+    }();</script>
+<script type="text/javascript">
+  var Hunter = window.Hunter || {};
+  Hunter.userConfig = Hunter.userConfig || [];
+  </script>
+<script type="text/javascript" src="https://gss0.baidu.com/70cFsjip0QIZ8tyhnq/hunter/baike.js?st=17151" defer></script><script type="text/javascript">
+  // DOM Ready时，统计用户可操作时间。
+  alog('speed.set', 'drt', +new Date);
+
+  void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;if("https:"===a.location.protocol){if(d="https://gss2.bdstatic.com/70cFsjip0QIZ8tyhnq"+d,!k||!l)return}else d="http://img.baidu.com"+d;k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+</script>
+</html>
+<!--22603688820198060554121812-->
+<script> var _trace_page_logid = 2260368882; </script>
